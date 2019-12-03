@@ -1,0 +1,91 @@
+/* Write your CSS here */
+body {
+	font-family: Playfair Display;
+	background-color: rgb(240, 240, 240);
+}
+h1 {
+	text-align: center;
+}
+
+h2 {
+	color: #c06c84;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #6c5b7b
+}
+
+a:hover {
+	color: #f8b195
+}
+
+#banner {
+	text-align: center;
+	background-image: url("images/banniere.jpg");
+	padding: 15px;
+}
+
+#banner img {
+	border-radius: 50%;
+}
+
+#banner p {
+	margin-bottom: 50px;
+}
+
+#footer {
+  padding: 8px;
+  background-color: #c06c84;
+  color: lightgrey;
+}
+
+#footer p {
+	text-align: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+
+.card img {
+  margin-bottom: 20px;
+}
+
+.btn-blue {
+  color: white;
+  background-color: #c06c84;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px 20px;
+}
+.btn-blue:hover {
+  background-color: #f1d6ab;
+  color: white;
+}
+
+.cards{
+  margin: 15px auto;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+@media(max-width: 992px){
+  .cards{
+  width: 750px;
+  }
+}
+@media(max-width: 768px){
+  .cards{
+  width: 90%;
+  grid-template-columns: 1fr;
+  }
+}
